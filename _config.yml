@@ -1,0 +1,29 @@
+title: Fatma Baçaru
+description: > # this means to ignore newlines until "baseurl:"
+  karalama defteri
+permalink: ':title/'
+baseurl: # the subpath of your site, e.g. /blog
+url: "fatmabacaru.netlify.com"
+favicon: "favicon.ico"
+site-twitter: fatmabacaru
+
+# Author Settings
+author: Fatma Baçaru # add your name
+author-img: fatma-bacaru.jpg # add your photo
+about-author: karalama defteri # add description
+social-twitter: fatmabacaru
+social-facebook: fatma.bacaru.77
+social-instagram: fatmabacaru
+social-email: fbacaru1@gmail.com
+
+# Build Settings
+markdown: kramdown
+plugins:
+  - jekyll-sitemap
+  - jekyll-paginate
+  - jemoji
+
+paginate: 8
+paginate_path: "/page/:num"
+
+exclude: ["node_modules", "gulpfile.js", "package.json", "yarn.lock"]
